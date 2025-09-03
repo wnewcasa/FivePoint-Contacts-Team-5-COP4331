@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+body{
+    background: linear-gradient(to bottom, #154D71, #dcdddd);
+}
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center; /* vertically centers items */
+    background-color: rgba(76, 74, 85, 0.781);
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content: center; /*centers title header*/
+    width: 100%;
+    height: 15%;
+}
+
+header .homepage{
+    left: 9%;
+    position: absolute; /* keeps logo at far left */
+    top: 1rem;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: groove;
+    border-color: white;
+
+}
+
+header .loginSignup{
+    right: 9%;
+    position: absolute;
+    justify-content: center;
+    transition: 0.5s ease;
+    top: 2.5rem;
+    color: #E9E3DF;
+    font-size: 3rem;
+
+}
+
+header .loginSignup:hover{
+    color:rgb(103, 160, 207);
+    cursor: pointer;
+}
+
+header h1{
+    color:#E9E3DF;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: wavy;
+    font-weight: 300;
+    text-decoration-color: white;
+    right: 3rem;
+    font-size: 3.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2rem;
+}
