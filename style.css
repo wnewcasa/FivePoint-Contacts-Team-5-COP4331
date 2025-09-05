@@ -15,11 +15,13 @@ header{
     justify-content: center; /*centers title header*/
     width: 100%;
     height: 15%;
+    gap: 2rem;
 }
 
 header .homepage{
     left: 9%;
     position: absolute; /* keeps logo at far left */
+    align-items:center;
     top: 1rem;
     border-radius: 50%;
     border-width: 5px;
@@ -32,6 +34,7 @@ header .loginSignup{
     right: 9%;
     position: absolute;
     justify-content: center;
+    align-items: center;
     transition: 0.5s ease;
     top: 2.5rem;
     color: #E9E3DF;
@@ -40,13 +43,13 @@ header .loginSignup{
 }
 
 header .loginSignup:hover{
-    color:rgb(103, 160, 207);
+    color:rgb(65, 126, 73);
     cursor: pointer;
 }
 
 header h1{
     color:#E9E3DF;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
     text-decoration: wavy;
     font-weight: 300;
     text-decoration-color: white;
@@ -56,4 +59,26 @@ header h1{
     align-items: center;
     justify-content: center;
     letter-spacing: 0.2rem;
+}
+
+#hpContent p{
+    color: #020202;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.603));
+    border-radius: 15%;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(250, 235, 215, 0.801);
+}
+
+#bgpicture img {
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
 }
