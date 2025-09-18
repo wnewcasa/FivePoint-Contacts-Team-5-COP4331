@@ -2,4 +2,4 @@
 
 A personal contact manager
 
-Check out our website
+Check out our [website](http://fivepointcontact.xyz)
