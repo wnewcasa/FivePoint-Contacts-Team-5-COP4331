@@ -7,7 +7,7 @@ Check out our [website](http://fivepointcontact.xyz)
 
 Contributers:
 
-William Newhouse
-Tadgh Hallahan
-David Barr
-Andrew Stoumbos
+William Newhouse,
+Tadgh Hallahan,
+David Barr,
+Andrew Stoumbos,
